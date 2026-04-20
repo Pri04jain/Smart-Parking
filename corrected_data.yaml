@@ -1,0 +1,13 @@
+names:
+- empty
+- occupied
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: pklot-raw
+  url: https://universe.roboflow.com/thesis-upy7y/pklot-raw/dataset/6
+  version: 6
+  workspace: thesis-upy7y
+test: F:/AI/PKLot-raw-6/test/images
+train: F:/AI/PKLot-raw-6/train/images
+val: F:/AI/PKLot-raw-6/valid/images

@@ -1,0 +1,7 @@
+train/
+test/
+valid/
+outputs/
+__pycache__/
+*.pt
+*.log

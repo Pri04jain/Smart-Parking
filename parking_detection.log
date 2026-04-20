@@ -1,0 +1,32 @@
+2025-04-24 02:43:28,018 - INFO - Training new model...
+2025-04-24 02:43:28,038 - INFO - Using device: cuda
+2025-04-24 02:43:28,038 - ERROR - Error during training: data.yaml not found at: F:\AI\AI\PKLot-raw-6\data.yaml
+Traceback (most recent call last):
+  File "F:\AI\PKLot-raw-6\main2.py", line 45, in train_model
+    raise FileNotFoundError(f"data.yaml not found at: {yaml_path}")
+FileNotFoundError: data.yaml not found at: F:\AI\AI\PKLot-raw-6\data.yaml
+2025-04-24 02:49:13,849 - INFO - Loading existing model...
+2025-04-24 02:49:13,903 - WARNING - Test image not found
+2025-04-24 02:52:13,140 - INFO - Loading existing model...
+2025-04-24 02:52:13,168 - WARNING - Test image not found
+2025-04-24 03:05:20,668 - INFO - Loading existing model...
+2025-04-24 03:05:20,699 - WARNING - Test image not found
+2025-04-24 03:05:50,694 - INFO - Detection results saved to: F:/AI/PKLot-raw-6/outputs/detection_result.jpg
+2025-04-24 03:24:00,069 - INFO - Loading existing model...
+2025-04-24 03:24:00,098 - ERROR - Test image not found
+2025-04-24 03:27:13,489 - INFO - Loading existing model...
+2025-04-24 03:34:21,161 - INFO - Loading existing model...
+2025-04-24 04:06:34,850 - INFO - Connected to MySQL database
+2025-04-24 04:06:34,851 - INFO - Loading existing model...
+2025-04-24 04:06:36,026 - ERROR - Error updating parking status: 1054 (42S22): Unknown column 'location' in 'where clause'
+2025-04-24 04:06:36,027 - ERROR - Visualization error: 'WindowsPath' object has no attribute 'endswith'
+2025-04-24 04:06:36,031 - INFO - MySQL connection closed
+2025-04-24 04:20:58,208 - INFO - Connected to MySQL database
+2025-04-24 04:20:58,208 - INFO - Loading existing model...
+2025-04-24 04:20:59,342 - INFO - Results saved to: F:/xmp/htdocs/ParkEasy-main/application/parking_images/parking_20250424_042059.jpg
+2025-04-24 04:20:59,342 - ERROR - Detection error: DatabaseHelper.update_parking_status() got an unexpected keyword argument 'image_path'
+Traceback (most recent call last):
+  File "F:\AI\PKLot-raw-6\main2.py", line 201, in detect_parking_spaces
+    db_helper.update_parking_status(
+TypeError: DatabaseHelper.update_parking_status() got an unexpected keyword argument 'image_path'
+2025-04-24 04:20:59,343 - INFO - MySQL connection closed
